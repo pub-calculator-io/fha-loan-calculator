@@ -112,7 +112,7 @@ function calculate(){
 	const insurancePercent = +(insuranceTotal / totalPayment * 100).toFixed(0);
 	const hoaPercent = +(hoaTotal / totalPayment * 100).toFixed(0);
 	const totalMipPercent = +(totalMip / totalPayment * 100).toFixed(0);
-	const donutData = [principalPercent, interestPercent, taxesPercent, insurancePercent, hoaPercent, totalMipPercent];
+	const donutData = [principalPercent, interestPercent, hoaPercent, taxesPercent, insurancePercent, totalMipPercent];
 	_('chart__legend').innerHTML = chartLegendHtml;
 	changeChartData(donutData, chartData);
 	output.val(currencyFormat(monthlyPayment)).set('monthly-payment');
