@@ -1,4 +1,4 @@
-# FHA Loan Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# FHA Loan Calculator Widget for WordPress
 
 The FHA loan calculator lets you plug in the numbers and calculate the monthly payments, interest, and total amount paid over time.
 
