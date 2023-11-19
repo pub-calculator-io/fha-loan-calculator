@@ -1,4 +1,4 @@
-=== FHA Loan Calculator by www.calculator.io ===
+=== CI Fha loan calculator ===
 Contributors: calculatorio
 Tags: fha loan calculator, mortgage payment calculator, fha mortgage rates, fha loan payment estimator, calculate fha mortgage, home loan calculator, fha down payment calculation, fha mortgage insurance calculation, fha loan eligibility, fha affordability calculator
 Requires at least: 5.0

@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: FHA Loan Calculator by www.calculator.io
+Plugin Name: CI Fha loan calculator
 Plugin URI: https://www.calculator.io/fha-loan-calculator/
 Description: The FHA loan calculator lets you plug in the numbers and calculate the monthly payments, interest, and total amount paid over time.
 Version: 1.0.0
