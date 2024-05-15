@@ -3,7 +3,6 @@
 The FHA loan calculator lets you plug in the numbers and calculate the monthly payments, interest, and total amount paid over time.
 
 ![FHA Loan Calculator Input Form](/assets/images/screenshot-1.png "FHA Loan Calculator Input Form")
-![FHA Loan Calculator Calculation Results](/assets/images/screenshot-2.png "FHA Loan Calculator Calculation Results")
 
 ## Installation
 

@@ -8,7 +8,7 @@ function calculate(){
 	const annualFhaMipDuration = input.get('annual_fha_mip_duration').index().val();
 	const tax = +input.get('property_taxes').val();
 	const insurance = +input.get('home_insurance').val();
-	const hoa = +input.get('hoa_fee').val();
+	const hoa = +input.get('hoa_fee').val(); // HOA - Home Owner Association
 	if(!input.valid()) return;
 
 	const downPaymentAmount = amount * downPayment / 100;
@@ -66,7 +66,7 @@ function calculate(){
 			<td>${currencyFormat(item.principle)}</td>
 		</tr>`;
 		if((index + 1) % 12 === 0 || (index + 1) === amortization.length) {
-			let title = 'Year #{1} End'.replace('{1}', Math.ceil((index + 1) / 12).toString());
+			let title = 'Year {1} End'.replace('{1}', Math.ceil((index + 1) / 12).toString());
 			monthlyResultsHtml += `<th class="indigo text-center" colspan="5">${title}</th>`;
 		}
 		annualInterest += item.paymentToInterest;

@@ -24,7 +24,6 @@ Add the following code to your template where you would like the FHA Loan Calcul
 == Screenshots ==
 
 1. The FHA Loan Calculator Input Form.
-2. The FHA Loan Calculator Calculation Results.
 
 == Installation ==
 
